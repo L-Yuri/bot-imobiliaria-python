@@ -1,0 +1,7 @@
+# Ignorar senhas e variáveis de ambiente
+.env
+
+# Ignorar pastas de dados do Docker (são pesadas e inúteis no git)
+n8n_data/
+postgres_data/
+redis_data/
